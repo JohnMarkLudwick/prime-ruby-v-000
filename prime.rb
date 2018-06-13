@@ -2,6 +2,8 @@
 
 def prime(3)
   if Prime.prime?
+  end
+
 
 
 
