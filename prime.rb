@@ -2,7 +2,7 @@
 
 require 'benchmark'
 
-iterations= 30
+array= 30
 
 
 def prime?(3)
