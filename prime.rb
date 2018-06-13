@@ -4,7 +4,7 @@ require 'benchmark'
 
 array = Array(1..30)
 
-def prime?(array)
+def prime?(2)
   if Prime?.prime?
     true
   else
