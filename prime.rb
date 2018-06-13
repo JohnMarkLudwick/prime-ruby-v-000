@@ -1,5 +1,13 @@
 # Add  code here!
 
-Prime.each(100) do |prime|
-  p prime  #=> 2, 3, 5, 7, 11, ...., 97
-end
+def prime_orig?
+    return self >= 2 if self <= 3
+    return true if self == 5
+    return false unless 30.gcd(self) == 1
+    (7..Integer.sqrt(self)).step(30) do |p|
+      return false if
+        self%(p)    == 0 || self%(p+4)  == 0 || self%(p+6)  == 0 || self%(p+10) == 0 ||
+        self%(p+12) == 0 || self%(p+16) == 0 || self%(p+22) == 0 || self%(p+24) == 0
+    end
+    true
+  end
