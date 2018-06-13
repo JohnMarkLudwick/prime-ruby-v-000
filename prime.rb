@@ -2,8 +2,7 @@
 
 require 'benchmark'
 
-array= 30
-
+array = Array(1..30)
 
 def prime?(3)
   if Prime?.prime?
