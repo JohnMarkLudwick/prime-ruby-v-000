@@ -1,6 +1,5 @@
 # Add  code here!
 
-def is_prime?(num)
-   Math.sqrt(num).floor.downto(2).each {|i| return false if num % i == 0}
-   true
+Prime.each(100) do |prime|
+  p prime  #=> 2, 3, 5, 7, 11, ...., 97
 end
