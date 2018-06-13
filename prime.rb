@@ -2,7 +2,7 @@
 
 require 'prime'
 
-def prime?(2)
+def prime?(num)
   if Prime.prime?
     true
   else
