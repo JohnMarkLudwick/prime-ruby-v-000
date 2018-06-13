@@ -12,10 +12,6 @@ def prime?(3)
     false
   end
 
-
-
-
-  
 end
 
 
