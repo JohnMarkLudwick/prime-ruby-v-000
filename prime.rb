@@ -5,7 +5,7 @@ require 'prime'
 def prime?(num)
   if num < 0 || num == 0 || num == 1
     false
-  else n
+  else 
     
     
     true
