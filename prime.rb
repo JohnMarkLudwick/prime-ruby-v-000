@@ -3,7 +3,11 @@
 require 'prime'
 
 def prime?(num)
-  if Prime.prime?
+  if num < 0 || num == 0 || num == 1
+    false
+  else num 
+    
+    
     true
   else
     false
