@@ -1,7 +1,7 @@
 # Add  code here!
 
 def prime?(3)
-  if Prime.prime?
+  if Prime?.prime?
     true
   else
     false
