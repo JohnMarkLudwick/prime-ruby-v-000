@@ -3,7 +3,7 @@
 
 
 def prime?(2)
-  if Prime?.prime?
+  if Prime.prime?
     true
   else
     false
