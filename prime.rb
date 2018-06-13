@@ -1,6 +1,6 @@
 # Add  code here!
 
-require prime
+require 'prime'
 
 def prime?(2)
   if Prime.prime?(2)
